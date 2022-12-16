@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="peli.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid" id="tres">
+        <div class="row" id="AV">
+            <div class="col-12" >
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imgs/avatar.jpg" class="d-block w-100"  class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgs/gato.jpg" class="d-block w-100"  class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgs/llorona.jpg" class="d-block w-100" class="img-fluid" alt="...">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="treinta" >
+            <div class="col-6">  <CEnter><h1 id="h">CINOPOLIS</h1></div></CEnter>
+            <div class="col-6 my-2">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded"  id="buscar" placeholder="BUSCAR PELICULA " aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-outline-primary" onclick="buscar() ;lim()">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col">
+                <h3 style="color:black; font-family: fantasy;"> ¿Quienes somos?</h3>
+                <hr>
+                <p id="p">Cinépolis es una empresa mexicana con el objetivo de crear un verdadero valor de diversión, comodidad y entretenimiento para sus clientes. Fundada en Morelia en 1971, es líder de la industria cinematográfica y del entretenimiento en México y Latinoamérica. Cinépolis es la cuarta cadena más grande a nivel mundial, la segunda más grande en venta de entradas, la primera en entradas vendidos por sala y la más importante fuera de los Estados Unidos. Además, es el operador de salas VIP más grande del mundo.</p>    
+            </div>
+            <div class="col">
+                <h3 style="color:black; font-family: fantasy;"> ¿Donde pueden encontrarnos?</h3>
+                <hr>
+                <p id="p">
+                    Cinépolis opera 6.416 salas de cine 100% digitales en México y en 16 países: Estados Unidos, Panamá, Guatemala, Costa Rica, Honduras, El Salvador, Colombia, Chile, Perú, Brasil, España, India, Argentina, Arabia Saudita, Omán e Indonesia.
+                </p>
+
+                <div class="col">
+                    <h3 style="color:black; font-family: fantasy;"> Para màs informacion</h3>
+                    <a href="https://www.cinepolis.com.ar/quienes-somos#:~:text=Cin%C3%A9polis%20es%20una%20empresa%20mexicana,entretenimiento%20en%20M%C3%A9xico%20y%20Latinoam%C3%A9rica."> Mas informacion</a>
+                </div>
+            </div>
+           
+         </div>
+    </div>
+
+    <div class="container-fluid" id="uno"></div>
+    <div class="container-fluid" id="dos"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./peliculas.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script></body>
+</html>

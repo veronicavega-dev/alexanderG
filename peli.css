@@ -1,0 +1,78 @@
+
+*{
+    color: white;
+    font-family: fantasy;
+
+}
+
+#tit{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+        height: 30px;
+}
+#row{
+        margin-top: 40px;
+}
+#parrafo{
+        margin-top: 5%;
+        line-height: 120%;
+}
+#img{
+        margin-top: 10%;
+        margin-bottom: 100%;
+        width: 600px;
+        border: solid bisque;
+        border-radius: 20px;
+}
+body{
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
+        background-position: right center;
+        margin: 0;
+        padding: 0;
+        height: auto;
+}
+#prueba{
+        margin-left: 2em;
+        text-align: center;
+}
+#title{
+        display: block;
+        font-size: 40px;
+        text-align: center;
+}
+#año{
+        text-align: center;     
+}
+#h{
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        
+
+}
+
+#treinta{
+        background-color: rgba(7, 7, 255, 0.865);
+}
+#AV{
+        background-color: rgba(7, 7, 255, 0.865);
+}
+#p{
+        color: black;
+        font-family: fantasy;
+}
+#hola{
+        background-color: rgba(84, 84, 237, 0.495);
+
+
+}
+#tit{
+        color: white;
+        font-family: fantasy;
+}
+#hola2{
+        font-family: fantasy;
+}
+
